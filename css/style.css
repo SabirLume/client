@@ -311,7 +311,7 @@ button {
   }
 } */
 
-@media screen and (max-width: 867px) {
+@media (min-width: 868px) and (max-width: 986px) {
   header nav {
     display: none;
   }
@@ -322,7 +322,7 @@ button {
     margin-left:15%;
   }
 
-@media screen and (max-width: 690px) {
+@media (min-width: 668px) and (max-width: 867px) {
   header nav {
     display: none;
   }
@@ -356,13 +356,4 @@ button {
     height: 600px;
     margin-bottom: 30px;
   }
-  /* .groupOne img, .groupTwo img{
-    width: 120px;
-    margin-left: 8%;
-  }
-  .groupThree img{
-    width: 250px;
-    margin-left: 5%;
-  }
-} */
 }
