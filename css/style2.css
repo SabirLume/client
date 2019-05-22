@@ -13,23 +13,21 @@ footer {
   font-size: 24px;
 }
 header h2 {
-  width: 25%;
-  font-size: 50px;
+  width: 30%;
+  font-size: 40px;
   text-align: center;
-  margin: 1% 2%;
+  margin: 1% 1%;
   float: left;
 }
 
 header nav {
-  width: 65%;
-  margin-left: 6%;
+  width: 60%;
   float: left;
   display: block;
 }
 
 header ul {
-  width: 60%;
-  margin: 30px 0 15px 35%;
+  margin-top: 30px;
   padding: 0;
   text-align: right;
 }
@@ -43,16 +41,16 @@ header li {
 }
 h1{
   width: 40%;
-  margin: 25px 35%;
+  margin: 25px 30%;
   font-size: 55px;
   text-align: center;
-  border-bottom: 10px solid #bef4f2;
+  border-bottom: 2px solid #bef4f2;
 }
 h2{
   width: 30%;
   margin: 10px 35%;
   font-size: 30px;
-  border-bottom: 5px solid #bef4f2;
+  border-bottom: 2px solid #bef4f2;
   text-align: center;
 }
 a{

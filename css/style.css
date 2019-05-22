@@ -3,7 +3,8 @@ body{
   margin: 0;
   float: left;
   width: 100%;
-  color: teal
+  color: teal;
+
 }
 header,
 footer {
@@ -29,29 +30,27 @@ h2{
   width: 30%;
   margin: 10px 35%;
   font-size: 30px;
-  border-bottom: 5px solid #bef4f2;
+  border-bottom: 2px solid #bef4f2;
   text-align: center;
 }
 
 /* Header */
 header h2 {
-  width: 25%;
-  font-size: 50px;
+  width: 30%;
+  font-size: 40px;
   text-align: center;
-  margin: 1% 2%;
+  margin: 1% 1%;
   float: left;
 }
 
 header nav {
-  width: 65%;
-  margin-left: 6%;
+  width: 60%;
   float: left;
   display: block;
 }
 
 header ul {
-  width: 60%;
-  margin: 30px 0 0 25%;
+  margin-top: 30px;
   padding: 0;
   text-align: right;
 }
@@ -62,6 +61,11 @@ header li {
 }
  i.fas{
   display: none;
+}
+/* --------------TOP SECTION------------- */
+.topSection{
+  padding-top:5vh;
+  overflow:auto;
 }
 /* ------ Main Image ------- */
 
@@ -86,14 +90,18 @@ header li {
   width: 75%;
   margin: 5% 10%;
   text-align: center;
+  line-height: 150%;
 }
 
 /*---------- Work ----------- */
 .work {
   width: 45%;
-  margin: 20px 2.5%;
+  margin: 20px;
   height: 240px;
   float: left;
+}
+#workS{
+  padding-top:20vh;
 }
 .corporate{
   background-image: url('../img/TE.jpg');
@@ -157,8 +165,14 @@ header li {
 
 #contact i {
   font-size: 70px;
-  margin:25px 47.5%;
   color: teal;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding-bottom:5vh;
+}
+#contact{
+  padding-top:20vh;
 }
 
 
@@ -167,13 +181,20 @@ input {
   height: 50px;
   margin: 2% 17.5%;
   font-size: 16px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
 }
 
 textarea {
   width: 65%;
   height: 200px;
-  margin: 1% 17.5%;
+  margin: 1% 14%;
   font-size: 16px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom:none;
 
 }
 
@@ -182,6 +203,10 @@ button {
   height: 30px;
   margin: 1% 17.5%;
   font-size: 16px;
+  display: block;
+  margin: 0 auto;
+  background: none;
+  margin-bottom:5vh;
 
 }
 
@@ -190,13 +215,26 @@ button {
 
 #companyLogo section{
   height: 250px;
-    margin: 1% 0 1% 25%;
-    width: 50%;
+  margin: 1% 0 1% 26%;
+  width: 50%;
 }
-#companyLogo section img{
-  height: inherit;
+.fadeImg{
+  /* height: inherit; */
   width: 100%;
 
+}
+.fadeImg {
+  height: inherit;
+
+}
+.left{
+  /* margin-left: 25%; */
+}
+.left2{
+  /* margin-left:15%; */
+}
+.hide{
+  display: none;
 }
 /* .groupOne img, .groupTwo img{
   width: 250px;
@@ -273,14 +311,51 @@ button {
   }
 } */
 
+@media screen and (max-width: 867px) {
+  header nav {
+    display: none;
+  }
+  #about p {
+    font-size: 17px;
+  }
+  .left{
+    margin-left:15%;
+  }
+
 @media screen and (max-width: 690px) {
   header nav {
     display: none;
   }
   #about p {
-    font-size: 21px;
+    font-size: 17px;
+  }
+  .left{
+    margin-left:15%;
   }
 
+@media (min-width: 375px) and (max-width: 667px){
+  header nav {
+    display: none;
+  }
+  #about p {
+    font-size: 17px;
+  }
+  .left{
+    margin-left:15%;
+  }
+  #mainImage img {
+    width: 100%;
+    height: 100%;
+    margin: 0% 0%;
+    border-radius: 0%;
+  }
+  
+  #about,
+  #mainImage {
+    width: 100%;
+    height: 600px;
+    margin-bottom: 30px;
+  }
   /* .groupOne img, .groupTwo img{
     width: 120px;
     margin-left: 8%;
@@ -290,3 +365,4 @@ button {
     margin-left: 5%;
   }
 } */
+}
