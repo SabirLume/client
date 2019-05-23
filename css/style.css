@@ -27,7 +27,7 @@ a:hover{
   border-bottom: 5px solid #bef4f2;
 }
 h2{
-  width: 30%;
+  width: 32%;
   margin: 10px 35%;
   font-size: 30px;
   border-bottom: 2px solid #bef4f2;
@@ -65,7 +65,7 @@ header li {
 /* --------------TOP SECTION------------- */
 .topSection{
   padding-top:5vh;
-  overflow:auto;
+  overflow:hidden;
 }
 /* ------ Main Image ------- */
 
@@ -249,11 +249,11 @@ button {
   .left{
     margin-left:15%;
   }
-
+}
 @media (min-width: 668px) and (max-width: 867px) {
   #about, .mainImage {
     width: 100%;
-    height: 100%;
+    height: 600px;
     margin-bottom: 30px;
   }
   .mainImage img {
@@ -271,7 +271,16 @@ button {
   .left{
     margin-left:15%;
   }
-
+  .topSection{
+    padding-top:0vh;
+  }
+  .work{
+    width: 100%;
+    margin: 1px;
+    height: 240px;
+    float: left;
+  }
+}
 @media (min-width: 375px) and (max-width: 667px){
   header nav {
     display: none;
