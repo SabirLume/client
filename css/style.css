@@ -69,7 +69,7 @@ header li {
 }
 /* ------ Main Image ------- */
 
-#mainImage img {
+.mainImage img {
   width: 80%;
   height: 100%;
   margin: 2% 10%;
@@ -79,7 +79,7 @@ header li {
 /* ------------- About ------ */
 
 #about,
-#mainImage {
+.mainImage {
   width: 50%;
   height: 600px;
   margin-bottom: 30px;
@@ -236,81 +236,9 @@ button {
 .hide{
   display: none;
 }
-/* .groupOne img, .groupTwo img{
-  width: 250px;
-  margin-left: 10%;
-}
-.groupThree img{
-  width: 430px;
-  margin-left: 10%;
-} */
 
-@media screen and (max-width: 1224px) {
-  header h2 {
-    font-size: 40px;
-  }
-  #about p {
-    font-size: 36px;
-  }
-  /* .groupOne img, .groupTwo img{
-    width: 170px;
-    margin-left: 10%;
-  }
-  .groupThree img{
-    width: 330px;
-    margin-left: 10%;
-  }
-} */
-@media screen and (max-width: 967px) {
-  header h2 {
-    font-size: 30px;
-  }
-  header nav {
-    display: none;
-  }
-  header ul{
-    margin: 15px 33%;
-  }
-  i.fa-bars{
-    display: block;
-    margin-right: 5%;
-    margin-top: 15px;
-  }
-  i.fas{
-    text-align: right;
-    font-size: 40px;
-  }
-  header li {
-    margin-left: 5%;
-    display: block;
-  }
-  #about,
-  #mainImage {
-    height: 400px;
-  }
-  #about p {
-    font-size: 26px;
-  }
-  .work {
-    width: 90%;
-    height: 300px;
-    margin: 15px 5%;
-  }
-  .work p {
-    margin: 0;
-    padding-top:15%;
-  }
 
-  /* .groupOne img, .groupTwo img{
-    width: 120px;
-    margin-left: 13%;
-  }
-  .groupThree img{
-    width: 250px;
-    margin-left: 8%;
-  }
-} */
-
+/*----------------- Responsiveness ------------------*/
 @media (min-width: 868px) and (max-width: 986px) {
   header nav {
     display: none;
@@ -323,6 +251,17 @@ button {
   }
 
 @media (min-width: 668px) and (max-width: 867px) {
+  #about, .mainImage {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+  }
+  .mainImage img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
   header nav {
     display: none;
   }
@@ -343,17 +282,16 @@ button {
   .left{
     margin-left:15%;
   }
-  #mainImage img {
+  .mainImage img {
     width: 100%;
     height: 100%;
-    margin: 0% 0%;
-    border-radius: 0%;
+    margin: 0;
+    border-radius: 0;
   }
   
-  #about,
-  #mainImage {
+  #about, .mainImage {
     width: 100%;
-    height: 600px;
+    height: 100%;
     margin-bottom: 30px;
   }
 }
