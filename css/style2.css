@@ -27,7 +27,7 @@ header nav {
 }
 
 header ul {
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 0;
   text-align: right;
 }
@@ -40,18 +40,16 @@ header li {
   display: none;
 }
 h1{
-  width: 40%;
-  margin: 25px 30%;
-  font-size: 55px;
-  text-align: center;
+  width: 32%;
+  float:left;
+  text-align:center;
+  font-size: 1.5em;
   border-bottom: 2px solid #bef4f2;
+
 }
 h2{
-  width: 30%;
-  margin: 10px 35%;
   font-size: 30px;
-  border-bottom: 2px solid #bef4f2;
-  text-align: center;
+  text-align:center;
 }
 a{
   text-decoration: none;
@@ -69,6 +67,10 @@ iframe{
   margin: 20px 15%;
   float: left;
 }
+#container{
+  float: left;
+  width:100%;
+}
 #container section{
   width: 50%;
   float: left;
@@ -77,18 +79,21 @@ section section p{
   text-align: center;
   font-size: 25px;
 }
-@media screen and (max-width: 960px) {
+@media only screen and (max-width: 986px) {
+  header nav {
+    display:none;
+}
+h2{
+  padding-top:5vh;
+}
+}
+
+@media (min-width: 668px) and (max-width: 867px){
+
+}
+@media (min-width: 375px) and (max-width: 667px){
   header nav {
     display: none;
-  }
-  i.fa-bars{
-    display: block;
-    margin-right: 5%;
-    margin-top: 35px;
-  }
-  i.fas{
-    text-align: right;
-    font-size: 40px;
   }
   header li {
     margin-left: 5%;
@@ -96,5 +101,23 @@ section section p{
   }
   #container section{
     width: 100%;
+  }
+  h1{
+    margin: 1% 1%;
+    width: 55%;
+    text-align: left;
+    font-size: 1em;
+  }
+  h2{
+    margin: 0;
+    float: left;
+    width: 100%;
+    font-size: 30px;
+    padding-top: 1vh;
+    text-align: center;
+    
+  }
+  header, footer{
+    font-size:2em;
   }
 }
