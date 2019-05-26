@@ -227,23 +227,17 @@ button {
   width: 50%;
 }
 .fadeImg{
-  /* height: inherit; */
-  width: 100%;
-
-}
-.fadeImg {
   height: inherit;
+  width: auto;
 
 }
-.left{
+.left {
   /* margin-left: 25%; */
+
 }
-.left2{
-  /* margin-left:15%; */
-}
-.hide{
+/* .hide{
   display: none;
-}
+} */
 
 
 /*----------------- Responsiveness ------------------*/
