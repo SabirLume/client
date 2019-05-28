@@ -1,11 +1,12 @@
 /* ---------GENERAL CSS---- */
-body{
+body {
   margin: 0;
   float: left;
   width: 100%;
   color: teal;
 
 }
+
 header,
 footer {
   width: 100%;
@@ -19,29 +20,34 @@ section {
   width: 100%;
   float: left;
 }
-a{
+
+a {
   text-decoration: none;
   color: inherit;
 }
-a:hover{
+
+a:hover {
   border-bottom: 5px solid #bef4f2;
 }
-h3{
+
+h3 {
   font-weight: 100;
-  padding-top:20vh;
-  padding-bottom:10vh;
+  padding-top: 20vh;
+  padding-bottom: 10vh;
   font-size: 30px;
   text-align: center;
   margin: 0%;
 }
-h2{
+
+h2 {
   font-weight: 100;
-  padding-top:5vh;
+  padding-top: 5vh;
   font-size: 30px;
   text-align: center;
   margin: 0%;
 }
-h1{
+
+h1 {
   margin: 10px 35%;
   font-size: 1.5em;
   border-bottom: 2px solid #bef4f2;
@@ -73,13 +79,16 @@ header li {
   margin-left: 5%;
   display: inline-block;
 }
- i.fas{
+
+i.fas {
   display: none;
 }
+
 /* --------------TOP SECTION------------- */
-.topSection{
-  padding-top:5vh;
+.topSection {
+  padding-top: 5vh;
 }
+
 /* ------ Main Image ------- */
 
 .mainImage img {
@@ -112,23 +121,29 @@ header li {
   height: 240px;
   float: left;
 }
-#workS{
+
+#workS {
   width: 100%;
 }
-.corporate{
+
+.corporate {
   background-image: url('../img/TE.jpg');
   width: 50%;
 }
-.creative{
+
+.creative {
   background-image: url('../img/kahleo.png');
-  width:50%;
+  width: 50%;
 }
-.creative,.corporate{
+
+.creative,
+.corporate {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 80% 100%;
 }
-.hoverTrans{
+
+.hoverTrans {
   position: absolute;
   width: 40%;
   height: inherit;
@@ -138,7 +153,7 @@ header li {
   margin-left: 5%;
 }
 
-.work:hover .hoverTrans{
+.work:hover .hoverTrans {
   visibility: visible;
 }
 
@@ -149,13 +164,15 @@ header li {
   font-size: 50px;
   color: white;
   margin: 0;
-  padding-top:20%;
+  padding-top: 20%;
   visibility: hidden;
 }
-.work a:hover p{
+
+.work a:hover p {
   visibility: visible;
 }
-.work a{
+
+.work a {
   width: 100%;
   height: 100%;
 }
@@ -165,7 +182,7 @@ header li {
   height: 200px;
 }
 
-.work img{
+.work img {
   width: 85%;
   height: 100%;
   margin-left: 7.5%;
@@ -176,7 +193,7 @@ header li {
 
 
 /*--------- Contact ---------*/
-#contact a{
+#contact a {
   border-bottom: none;
 }
 
@@ -186,10 +203,11 @@ header li {
   display: inline-block;
   width: 100%;
   text-align: center;
-  padding-bottom:5vh;
+  padding-bottom: 5vh;
 }
-#contact-form{
-text-align:center;
+
+#contact-form {
+  text-align: center;
 }
 
 input {
@@ -204,13 +222,13 @@ input {
 
 textarea {
   width: 65%;
-  padding-top:5vh;
+  padding-top: 5vh;
   height: 200px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   font-size: 16px;
-  border:none;
+  border: none;
 
 }
 
@@ -222,36 +240,33 @@ button {
   display: block;
   margin: 0 auto;
   background: none;
-  margin-bottom:5vh;
+  margin-bottom: 5vh;
 
 }
 
 
 /*------- Footer --------*/
 
-#companyLogo section{
+#companyLogo section {
   height: 250px;
   margin: 1% 0 1% 26%;
   width: 50%;
 }
-.fadeImg{
-  /* height: inherit; */
-  width: 100%;
 
-}
 .fadeImg {
   height: inherit;
+  width: auto;
 
 }
-.left{
+
+.left {
   /* margin-left: 25%; */
+
 }
-.left2{
-  /* margin-left:15%; */
-}
-.hide{
+
+/* .hide{
   display: none;
-}
+} */
 
 
 /*----------------- Responsiveness ------------------*/
@@ -259,13 +274,16 @@ button {
   header nav {
     display: none;
   }
+
   #about p {
     font-size: 1.9em;
   }
-  .left{
-    margin-left:15%;
+
+  .left {
+    margin-left: 15%;
   }
 }
+
 @media (min-width: 668px) and (max-width: 783px) {
   /* .work{
     width: 100%;
@@ -293,20 +311,23 @@ button {
   .topSection{
     padding-top:0vh;
   } */
-  
+
   #about p {
-    font-size: 1.6em; 
+    font-size: 1.6em;
   }
 }
-@media (min-width: 375px) and (max-width: 667px){
+
+@media (min-width: 375px) and (max-width: 667px) {
   header nav {
     display: none;
   }
-  header h1{
+
+  header h1 {
     width: 55%;
     text-align: left;
     font-size: 1em;
   }
+
   #about p {
     font-size: 1em;
     margin: 0 auto;
@@ -314,44 +335,55 @@ button {
     padding-top: 2vh;
 
   }
-  .left{
-    margin-left:15%;
+
+  .left {
+    margin-left: 15%;
   }
+
   .mainImage img {
     width: 100%;
     height: 100%;
     margin: 0;
     border-radius: 0;
   }
-  
-  #about, .mainImage {
+
+  #about,
+  .mainImage {
     width: 100%;
     height: 100%;
   }
-  .work{
+
+  .work {
     width: 95%;
     margin: 3%;
     height: 240px;
     float: left;
   }
-  .topSection{
+
+  .topSection {
     padding-top: 0vh;
   }
-  .work p{
+
+  .work p {
     visibility: visible;
     padding-top: 45%;
     padding-left: 50%;
   }
-  h2{
-    padding-top:20vh;
+
+  h2 {
+    padding-top: 20vh;
     padding-bottom: 5vh;
   }
-  .creative, .corporate {
+
+  .creative,
+  .corporate {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-}
-header, footer{
-  font-size:2em;
-}
+  }
+
+  header,
+  footer {
+    font-size: 2em;
+  }
 }
