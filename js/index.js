@@ -35,9 +35,9 @@ $(document).ready(function(){
 	//NOTE : img should with css: absolute;
 	//NOTE : img Width & Height can change by you;
 	$('.fadeImg').css('position','relative');
-	$('.fadeImg img').css({'position':'absolute','height':'inherit','width':'80%'});
+	$('.fadeImg img').css({'position':'absolute','height':'inherit'});
 
-	nextFadeIn();
+	//nextFadeIn();
 });
 
 function nextFadeIn(){
