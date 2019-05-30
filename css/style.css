@@ -246,28 +246,17 @@ button {
 
 
 /*------- Footer --------*/
-
-#companyLogo section {
-  height: 250px;
-  margin: 1% 0 1% 26%;
-  width: 50%;
+.companyLogo{
+  height: 100px;
 }
-
-.fadeImg {
-  height: inherit;
-  width: auto;
-
+.fade{
+  /* height: 10%; */
 }
-
-.left {
-  /* margin-left: 25%; */
-
+.slick-slide img {
+  border: 5px solid #fff;
+  display: block;
+  width: 100%;
 }
-
-/* .hide{
-  display: none;
-} */
-
 
 /*----------------- Responsiveness ------------------*/
 @media only screen and (max-width: 986px) {
@@ -332,7 +321,7 @@ button {
     font-size: 1em;
     margin: 0 auto;
     width: 80%;
-    padding-top: 2vh;
+    padding-top: 5vh;
 
   }
 
@@ -371,7 +360,7 @@ button {
   }
 
   h2 {
-    padding-top: 20vh;
+    padding-top: 5vh;
     padding-bottom: 5vh;
   }
 
@@ -385,5 +374,14 @@ button {
   header,
   footer {
     font-size: 2em;
+  }
+  .hoverTrans {
+    position: absolute;
+    width: 40%;
+    height: inherit;
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0.5;
+    visibility: hidden;
+    margin-left: 5%;
   }
 }
