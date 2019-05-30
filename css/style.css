@@ -246,12 +246,7 @@ button {
 
 
 /*------- Footer --------*/
-.companyLogo{
-  height: 100px;
-}
-.fade{
-  /* height: 10%; */
-}
+
 .slick-slide img {
   border: 5px solid #fff;
   display: block;
